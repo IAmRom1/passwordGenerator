@@ -151,11 +151,6 @@ class Program
     static void Main(string[] args)
     { 
         int longeurDuPassword = Outils.DemanderNombrePositifNonNull("Longeur du mot de passe : ");
-
-        // 1 alpha minuscule
-        // 2 alpha minuscule et majuscule
-        // 3 alpha minuscule et majuscule + chiffre
-        // 4 alpha minuscule et majuscule + chiffre + char spé
         
         int nbPassword = 4; // nombre +1
         int choix = DemanderOption();
